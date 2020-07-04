@@ -31,6 +31,7 @@ def plot_chuva_vazao(df_chuva, df_vazao, path, vazao=False, df_nivel=None, figsi
 	df_vazao.plot(ax=ax1, x = 'Data', y = 'Nivel', kind = 'line', legend=False,linewidth=7.0)
 	
 	
+	
 	'''
 	Modificações
 	'''
